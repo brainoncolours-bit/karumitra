@@ -1,12 +1,12 @@
 import React, { useRef, useState } from 'react';
 import { motion, useScroll, useTransform, useSpring, useMotionValue, AnimatePresence } from 'framer-motion';
 import { Zap, Target, Fingerprint, Activity, Terminal, Shield, Cpu, BarChart3, ArrowRight } from 'lucide-react';
-import { img } from 'framer-motion/client';
-import  img1 from '../../src/assets/MHD03615.JPG'
-import  img2 from '../../src/assets/MHD03642.JPG'
-import  img3 from '../../src/assets/MHD03664.JPG'
-import  img4 from '../../src/assets/MHD03684.JPG'
-import  img5 from '../../src/assets/MHD03706.JPG'
+// Local asset files were not present in the repo; use hosted images instead.
+const img1 = 'https://images.unsplash.com/photo-1505691723518-36a2b7d6a3d8?auto=format&fit=crop&w=1200&q=80';
+const img2 = 'https://images.unsplash.com/photo-1542317854-0b5f5b9a8d9b?auto=format&fit=crop&w=1200&q=80';
+const img3 = 'https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80';
+const img4 = 'https://images.unsplash.com/photo-1505691723519-36a2b7d6a3d9?auto=format&fit=crop&w=1200&q=80';
+const img5 = 'https://images.unsplash.com/photo-1520975919353-8c7f6f6d6c3a?auto=format&fit=crop&w=1200&q=80';
 import { useNavigate } from 'react-router-dom';
 
 // --- 1. 3D INTERACTIVE CARD COMPONENT ---
